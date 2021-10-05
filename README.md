@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/robeurve/cardFrontendMentor)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/robeurve/cardFrontendMentor)
+- Live Site URL: [GithubPages](https://robeurve.github.io/cardFrontendMentor/)
 
 ## My process
 
@@ -46,7 +46,7 @@ I would like to continue learning about web development mainly, to improve in th
 
 ### Useful resources
 
-- [Example resource 1](https://getcssscan.com/css-box-shadow-examples) - This helped me to create amazing shadows for some elements..
+- [CssShadows](https://getcssscan.com/css-box-shadow-examples) - This helped me to create amazing shadows for some elements..
 
 ## Author
 
