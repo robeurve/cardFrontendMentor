@@ -1,0 +1,216 @@
+/* =========== Variables =========== */
+
+:root {
+  /* Layout */
+  --mobile: 480px;
+  --tablet: 800px;
+  --desktop: 1100px;
+
+  /* Colores */
+  /* Primarios */
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  /* Neutrales */
+  --vary-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+
+  /* Fuentes */
+  --font: "Red Hat Display", sans-serif;
+}
+
+/* =========== Estilos Generales =========== */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--font);
+  background-color: var(--pale-blue);
+  background-image: url("../images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* =========== Utilidades =========== */
+
+.container {
+  height: 85%;
+  margin: 1rem 2.5rem;
+  border-radius: 2.5rem;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  border: 0;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  font-weight: bold;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: var(--bright-blue);
+  box-shadow: rgba(56, 41, 224, 0.19) 0px 20px 25px -5px,
+    rgba(56, 41, 224, 0.23) 0px 10px 10px -5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: rgba(56, 41, 224, 0.8);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--desaturated-blue);
+  box-shadow: unset;
+  transition: color 0.3s ease;
+}
+
+.btn-secondary:hover {
+  color: var(--dark-blue);
+}
+
+.mt-1 {
+  margin-top: 0.5rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+/* =========== Header =========== */
+.header-bg {
+  height: 30%;
+  width: 100%;
+  background-image: url("../images/illustration-hero.svg");
+  background-size: cover;
+}
+
+/* =========== Main =========== */
+
+.main-container {
+  background-color: #fff;
+  text-align: center;
+  padding: 2rem 2rem;
+  height: 70%;
+}
+
+.main-container h1 {
+  font-size: 2.5rem;
+  color: var(--dark-blue);
+}
+
+.main-container p {
+  font-size: 1.6rem;
+  color: var(--desaturated-blue);
+  line-height: 2.5rem;
+}
+
+.plan-card {
+  display: flex;
+  align-items: center;
+  background-color: rgba(224, 232, 255, 0.5);
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+}
+
+.plan-card h2,
+.plan-card p {
+  margin: 0;
+}
+
+.plan-info {
+  margin-left: 2rem;
+  text-align: left;
+}
+
+.plan-info h2 {
+  color: var(--dark-blue);
+  font-size: 1.6rem;
+}
+
+.plan-info p {
+  font-size: 1.3rem;
+  color: var(--desaturated-blue);
+}
+
+.plan-change {
+  margin-left: auto;
+  font-size: 1.3rem;
+}
+
+@media (min-width: 480px) {
+  .container {
+    margin: 0 auto;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 1100px) {
+  body {
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-position: top center;
+    background-size: contain;
+  }
+
+  .container {
+    max-width: 30%;
+    max-height: 75%;
+  }
+
+  .main-container {
+    padding: 2rem 4rem;
+  }
+
+  .plan-card {
+    margin-top: 2.5rem;
+  }
+
+  .mt-1 {
+    margin-top: 1.5rem;
+  }
+
+  .mt-2 {
+    margin-top: 3rem;
+  }
+}
