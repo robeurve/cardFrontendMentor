@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/robeurve/cardFrontendMentor)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -50,5 +50,5 @@ I would like to continue learning about web development mainly, to improve in th
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/robeurve)
-- Twitter - [@yourusername](https://www.twitter.com/UrrutiaRonald)
+- Frontend Mentor - [@robeurve](https://www.frontendmentor.io/profile/robeurve)
+- Twitter - [@UrrutiaRonald](https://www.twitter.com/UrrutiaRonald)
