@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![image](images/Screenshot 2021-10-05 at 14-10-32 Frontend Mentor Order summary card.png)
+![image](https://github.com/robeurve/cardFrontendMentor/tree/main/images/Screenshot 2021-10-05 at 14-10-32 Frontend Mentor Order summary card.png)
 
 ### Links
 
